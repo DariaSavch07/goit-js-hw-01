@@ -1,7 +1,4 @@
 
-<script src="js/task-1.js"></script>
-
-
 function makeTransaction(quantityTransaction, pricePerDroidTransaction) {
 
 const quantityTransaction = 10;

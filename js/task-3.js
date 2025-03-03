@@ -1,6 +1,4 @@
 
-<script src="js/task-3.js"></script>
-
 function getElementWidth(contentWidth, paddingWidth, borderWidth) {
 
 const contentWidth = parseFloat(content);
