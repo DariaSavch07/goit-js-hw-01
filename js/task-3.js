@@ -1,3 +1,6 @@
+
+<script src="js/task-3.js"></script>
+
 function getElementWidth(contentWidth, paddingWidth, borderWidth) {
 
 const contentWidth = parseFloat(content);
@@ -7,7 +10,7 @@ const paddingWidth = parseFloat(padding);
 const borderWidth = parseFloat(border);
 
 
-    const mesage =  contentWidth + (paddingWidth + borderWidth) * 2;
+    const messageWidth = contentWidth + (paddingWidth + borderWidth) * 2;
 }
 
 

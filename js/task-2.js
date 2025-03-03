@@ -1,5 +1,14 @@
+
+<script src="js/task-2.js"></script>
+
+
 function getShippingMessage(countryMessage, priceMessage, deliveryFeeMessage) {
 
+const countryMessage = Ukraine;
+
+const priceMessage = 1000;
+
+const deliveryFeeMessage = 30;
 
     const totalPriceMessage = priceMessage + deliveryFeeMessage;
 
