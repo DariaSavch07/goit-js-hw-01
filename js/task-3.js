@@ -7,7 +7,7 @@ const paddingWidth = parseFloat(padding);
 const borderWidth = parseFloat(border);
 
 
-    const mesageWidth =  contentWidth + (paddingWidth + borderWidth) * 2;
+    const mesage =  contentWidth + (paddingWidth + borderWidth) * 2;
 }
 
 
