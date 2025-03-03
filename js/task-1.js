@@ -1,13 +1,13 @@
 
-function makeTransaction(quantityTransaction, pricePerDroidTransaction) {
+function makeTransaction(quantity, pricePerDroid) {
 
 const quantityTransaction = 10;
 
 const pricePerDroidTransaction = 800;
 
-const totalPriceTransaction = quantityTransaction * pricePerDroidTransaction;
+const totalPrice = quantity * pricePerDroid;
 
-const messageTransaction = `You ordered ${quantityTransaction} droids worth ${totalPriceTransaction} credits!`;
+const message = `You ordered ${quantity} droids worth ${totalPrice} credits!`;
 
 }
 

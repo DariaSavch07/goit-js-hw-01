@@ -1,5 +1,5 @@
 
-function getElementWidth(contentWidth, paddingWidth, borderWidth) {
+function getElementWidth(content, padding, border) {
 
 const contentWidth = parseFloat(content);
 
@@ -8,7 +8,7 @@ const paddingWidth = parseFloat(padding);
 const borderWidth = parseFloat(border);
 
 
-    const messageWidth = contentWidth + (paddingWidth + borderWidth) * 2;
+return content + (padding + border) * 2;
 }
 
 

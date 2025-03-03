@@ -1,15 +1,15 @@
 
-function getShippingMessage(countryMessage, priceMessage, deliveryFeeMessage) {
+function getShippingMessage(country, price, deliveryFee) {
 
-const countryMessage = Ukraine;
+const countryMessage = 'Ukraine';
 
 const priceMessage = 1000;
 
 const deliveryFeeMessage = 30;
 
-    const totalPriceMessage = priceMessage + deliveryFeeMessage;
+    const totalPrice = price + deliveryFee;
 
-    const message =  `Shipping to ${countryMessage} will cost ${totalPriceMessage} credits`;
+    const message =  `Shipping to ${country} will cost ${totalPrice} credits`;
 }
 
 
